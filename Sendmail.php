@@ -51,7 +51,7 @@ class Sendmail {
   public function sendInvoice() {
     $this->config();
     $mail = $this->mail;
-    $email = "swarnav.das@innoraft.com";
+    $email = "shuva.mallick@innoraft.com";
     $mail->addAddress($email);
     $mail->Subject = "Your Invoice!!";
     $mail->Body = "Your invoice is ready";
